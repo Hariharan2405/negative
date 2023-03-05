@@ -1,0 +1,30 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="operators">
+		<meta name="keywords" content="HTML,JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Negative</title>
+	
+	
+	</head>
+	
+	<body>
+		<script>
+			var z=[1,-7,2,3,-9,4,-2,10]; 
+			function neg(z){
+			var y=[];
+			for(i=0; i<z.length; i++){
+				if(z[i]<0){
+					y.push(z[i]*-1)
+				}
+			}
+			document.write(y);
+			}
+			neg(z);
+			
+
+		</script>
+	</body>
+</html>
